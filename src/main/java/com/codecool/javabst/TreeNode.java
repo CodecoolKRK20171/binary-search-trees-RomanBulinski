@@ -15,6 +15,7 @@ public class TreeNode {
         return Integer.toString(value);
     }
 
+
     public void removeChild(TreeNode child) {
         if (left == child) {
             left = null;
